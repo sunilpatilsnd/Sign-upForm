@@ -9,8 +9,14 @@
   <body>
     <div class="sidebar">
       <div class="logo-container">
-        <img class="logo" src="Assets/logo.png" alt="Lightening Bolt Logo" width="80px" height="80px" />
-        <p class="logo-txt"><span>Sunil</span><span>Patil</span></p>
+        <img
+          class="logo"
+          src="Assets/odin-lined.png"
+          alt="Odin Logo"
+          width="80px"
+          height="auto"
+        />
+        <p class="logo-txt">ODIN</p>
       </div>
       <div class="credits">
         <p>
@@ -26,19 +32,78 @@
               >Unsplash</a
             >
           </span>
-          |
-          <a
-            href="https://www.freepik.com/icon/bolt_10023828#fromView=search&page=1&position=7&uuid=deb79752-9554-43a0-bb2e-c620629fbca6"
-            >Icon by Md Tanvirul Haque</a
-          >
         </p>
+      </div>
     </div>
-    
-    </div>
-    <div class="form-container">
-      <h2>Sign Up Now</h2>
-      <form action="" method="get">
+    <div class="main">
+      <div class="form-container">
+        <h2>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </h2>
+        <h2 class="disclaimer">
+          Sign up
+          <em>now</em>
+          to get started.
+        </h2>
+        <h2>You <em>know</em> you want to.</h2>
+        <form action="" method="get" class="sign-up-form">
+          <h2>Let's do this!</h2>
+          <div class="form-row">
+            <div class="form-item">
+              <label for="firstname">FIRST NAME</label>
+              <input type="text" id="firstname" name="firstname" required />
+            </div>
+            <div class="form-item">
+              <label for="lastname">LAST NAME</label>
+              <input type="text" id="lastname" name="lastname" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-item">
+              <label for="email">EMAIL</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                pattern="^[^@]+@[^@]+\.[^@]+$"
+                placeholder="example@website.com"
+              />
+            </div>
+            <div class="form-item">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-item">
+              <label for="password">PASSWORD</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                minlength="8"
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="c-password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                id="c-password"
+                name="c-password"
+                minlength="8"
+                required
+              />
+            </div>
+          </div>
+          <hr />
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
 
-      </form>
+      <p class="footer">Alread have an account? <a href="#">Log in</a></p>
+    </div>
   </body>
 </html>
