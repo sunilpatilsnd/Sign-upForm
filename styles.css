@@ -69,7 +69,59 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
 body {
   font-family: "caviar_dreams";
+  min-height: 100vh;
+  font-size: 16px;
+  background-color: #f9fafb;
+
+  display: flex;
+  flex-direction: column;
+}
+.sidebar {
+  background: url("Assets/bg-img.jpg") no-repeat;
+  background-clip: content-box;
+  background-size: cover;
+  width: 33%;
+  min-height: 100vh;
+  position: relative;
+}
+.sidebar .credits {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  text-align: center;
+}
+.sidebar .credits p,
+.sidebar .credits p a {
+  color: #fff;
+  font-size: 12px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 25vh;
+  right: 0;
+  left: 0;
+
+  background: rgb(0, 0, 0, 0.4);
+  padding: 1rem;
+}
+.logo-container .logo {
+  margin: 0.5rem;
+}
+.logo-container p {
+  font-family: "edo", sans-serif;
+  color: #fff;
+  letter-spacing: 0.4rem;
+
+  font-size: 1.5rem;
+}
+.logo-container p span {
+  display: block;
 }
