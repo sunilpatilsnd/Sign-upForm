@@ -64,9 +64,8 @@ body {
 
 body {
   min-height: 100vh;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #f9fafb;
-
   display: flex;
   align-items: center;
 }
@@ -104,13 +103,13 @@ body {
   left: 0;
 
   background: rgb(0, 0, 0, 0.4);
-  padding: 3rem 1rem;
+  padding: 1rem;
 }
 .logo-container .logo {
   margin: 0.5rem;
 }
 .logo-container p {
-  font-size: 5rem;
+  font-size: 50px;
   font-weight: bold;
   color: #fff;
 
@@ -122,13 +121,13 @@ body {
 }
 .main h2 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
 }
 .main h2.disclaimer {
-  padding-bottom: 1rem;
+  padding-bottom: 0.6rem;
 }
 .sign-up-form {
-  margin: 3rem 0 1rem;
+  margin: 2rem 0 1rem;
 }
 
 .sign-up-form h2 {
@@ -141,10 +140,10 @@ body {
 }
 .sign-up-form .form-row {
   display: flex;
-  gap: 80px;
+  gap: 40px;
 }
 .sign-up-form .form-row .form-item {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 .sign-up-form label {
   display: block;
@@ -158,29 +157,29 @@ body {
   width: 250px;
   border-radius: 3px;
   border: none;
-  height: 34px;
+  height: 30px;
 
   padding: 3px 12px;
 }
 
 hr {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   border-top: 2px solid #cfcfcf;
 }
 .sign-up-form button {
   background-color: #1b6693;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   border: 1px solid #cfcfcf;
   padding: 0.6rem 3.5rem;
 
   border-radius: 5px;
   font-weight: bold;
-  margin: 2rem 5rem;
+  margin: 1.5rem 5rem;
 }
 .main .footer {
   padding: 0rem 5rem;
-  font-size: 16px;
+  font-size: 14px;
 }
 .main .footer a {
   text-decoration: none;
